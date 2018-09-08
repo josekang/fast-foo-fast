@@ -1,0 +1,106 @@
+body{
+	background-image: url(ad.jpg);
+	background-size: cover;
+}
+
+table{
+	border: 2px solid salmon;
+	border-collapse: collapse;
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	font-size: 18px;
+	font-family: heorgia;
+	opacity: 0.7;
+}
+
+table,td,th{
+	border: 2px solid salmon;
+	padding: 5px;
+}
+
+.header{
+	font-size: 2em;
+	height: 100px;
+	background-color: firebrick;
+}
+
+.fast{
+	background-color: limegreen;
+}
+
+tr:nth-child(even){
+	background-color: silver;
+}
+
+tr:nth-child(odd){
+	background-color: snow;
+}
+
+.header a{
+	text-decoration: none;
+	color: #000;
+}
+
+.header a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.btn{
+	width: 250px;
+	height: 50px;
+	background: #1aaa1a;
+	border: none;
+	border-radius: 10px;
+	float: left;
+	margin-left: 40%;
+	opacity: 0.7;
+	color: #fff;
+	font-weight:bold;
+
+}
+
+.btn a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+
+}
+
+.btn a:hover{
+	font-size: 30px;
+	transition: all .5s ease;
+}
+
+.re{
+	width: 120px;
+	height: 30px;
+	background: #1aaa1a;
+	border: none;
+	border-radius: 10px;
+	float: left;
+	margin-left: 0%;
+	opacity: 0.7;
+	color: #fff;
+	font-weight:bold;
+
+}
+
+
+.re a{
+color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+	
+
+
+}
+
+.re a:hover{
+	font-size: 28px;
+	transition: all .5s ease;
+}
+
